@@ -1,0 +1,177 @@
+/* latin */
+@font-face {
+    font-family: 'Antic Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Antic Slab Regular'), local('AnticSlab-Regular'), url(https://fonts.gstatic.com/s/anticslab/v8/bWt97fPFfRzkCa9Jlp6IacVcXExq9Qs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  * {
+      font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
+  }
+
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* latin */
+@font-face {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('IBM Plex Serif'), local('IBMPlexSerif'), url(https://fonts.gstatic.com/s/ibmplexserif/v8/jizDREVNn1dOx-zrZ2X3pZvkTiUf2zcZiVbJ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.header img {
+    border-radius: 28px;
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+.gridContainer {
+    display: grid;
+    padding: 1em;
+}
+
+.region {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1em;
+}
+
+.subregion {
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(24, 24, 27,1) 0%, rgba(96, 96, 108,1) 53%, rgba(201, 201, 207,1) 100%);
+    color: #fff;
+    margin-top: 1em;
+}
+
+.title {
+    grid-column:1/4;
+    /*Gradient bars made using CSS gradient generator https://cssgradient.io/ */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.award p{
+    text-align: center;
+}
+
+#email {
+    text-align: center;
+}
+
+#editor{
+    grid-column: 3/4;
+}
+
+#coach {
+    grid-column: 3/4;
+}
+
+#uwrf {
+    background-image: 
+        /*Background gradient trick picked up from https://css-tricks.com/design-considerations-text-images/ */
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/uwrf.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;   
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#umn {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/umn.png");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        margin-top: 1em;
+        margin-right: 1em;
+}
+
+#ust {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/ust.png");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        margin-top: 1em;
+}
+
+#umd {
+    grid-column: 1/4;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/maryland_banner.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin-top: 1em;
+}
+
+#workTitle {
+    font-weight: bold;
+}
+
+#year {
+    font-style: italic;
+}
+
+#workTitle ul{
+    list-style-type: none;
+}
+
+#place ul {
+    list-style-type: none;
+}
+
+#year ul {
+    list-style-type: none;
+}
+
+
+p {
+    vertical-align: middle;
+}
+
+a {
+    color: white;
+}
+
+h3 {
+    margin: 1em;
+    letter-spacing: 3px;
+    font-size: 1.8rem;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+h5 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+li {
+    margin-bottom: 1em;
+    border: 1px black;
+}
