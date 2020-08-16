@@ -14,7 +14,7 @@
 
 .header {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(24, 24, 27,1) 0%, rgba(96, 96, 108,1) 53%, rgba(201, 201, 207,1) 100%);
     color: #fff;
     font-size: 1.2rem;
 }
