@@ -39,13 +39,6 @@
     padding-top: 1em;
 }
 
-.subregion {
-    background: rgb(2,0,36);
-    background: linear-gradient(rgba(24, 24, 27,1) 0%, rgba(96, 96, 108,1) 53%, rgba(201, 201, 207,1) 100%);
-    color: #fff;
-    margin-top: 1em;
-}
-
 .title {
     grid-column:1/4;
     /*Gradient bars made using CSS gradient generator https://cssgradient.io/ */
