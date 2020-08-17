@@ -14,7 +14,7 @@
 
 .header {
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(24, 24, 27,1) 0%, rgba(96, 96, 108,1) 53%, rgba(201, 201, 207,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
     color: #fff;
     font-size: 1.2rem;
 }
@@ -27,6 +27,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+}
+
+.header a {
+    color: #fff;
 }
 .gridContainer {
     display: grid;
@@ -43,12 +47,11 @@
     grid-column:1/4;
     /*Gradient bars made using CSS gradient generator https://cssgradient.io/ */
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,59,61,1) 40%, rgba(235,235,235,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,59,61,1) 40%, rgba(235,235,235,1) 100%);;
     color: #fff;
-    font-size: 1.5rem;
 }
 
-.award p{
+.award {
     text-align: center;
 }
 
@@ -108,39 +111,18 @@
     margin-top: 1em;
 }
 
-#workTitle {
-    font-weight: bold;
+#xtraJobs{
+    grid-column: 1/4;
 }
 
-#year {
-    font-style: italic;
-}
-
-#workTitle ul{
-    list-style-type: none;
-}
-
-#place ul {
-    list-style-type: none;
-}
-
-#year ul {
-    list-style-type: none;
-}
-
-
-p {
-    vertical-align: middle;
-}
-
-a {
-    color: white;
+th {
+    text-align: left;
 }
 
 h3 {
     margin: 1em;
     letter-spacing: 3px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 h4 {
@@ -153,7 +135,9 @@ h5 {
     text-align: center;
     letter-spacing: 2px;
 }
-
+a {
+    color: black;
+}
 li {
     margin-bottom: 1em;
     border: 1px black;
