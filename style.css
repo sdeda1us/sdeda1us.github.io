@@ -12,26 +12,16 @@
       font-family: 'Antic Slab', Arial, Helvetica, sans-serif;
   }
 
-.header {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
-    color: #fff;
-    font-size: 1.2rem;
-}
-
 .header img {
     border-radius: 28px;
     max-width: 100%;
-    height: 300px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
 }
 
-.header a {
-    color: #fff;
-}
 .gridContainer {
     display: grid;
     padding: 1em;
@@ -57,14 +47,6 @@
 
 #email {
     text-align: center;
-}
-
-#editor{
-    grid-column: 3/4;
-}
-
-#coach {
-    grid-column: 3/4;
 }
 
 #uwrf {
@@ -117,6 +99,8 @@
 
 th {
     text-align: left;
+    text-decoration: underline;
+    font-size: 1.6em;
 }
 
 h3 {
@@ -134,10 +118,13 @@ h4 {
 h5 {
     text-align: center;
     letter-spacing: 2px;
+    font-size: 1.1em;
 }
+
 a {
     color: black;
 }
+
 li {
     margin-bottom: 1em;
     border: 1px black;
