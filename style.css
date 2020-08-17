@@ -59,8 +59,8 @@
 .title {
     grid-column:1/4;
     /*Gradient bars made using CSS gradient generator https://cssgradient.io/ */
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 53%, rgba(255,255,255,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,59,61,1) 40%, rgba(235,235,235,1) 100%);
     color: #fff;
     font-size: 1.5rem;
 }
